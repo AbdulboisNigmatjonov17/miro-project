@@ -1,5 +1,12 @@
 {
-    "welcome": "Bizning saytimizga xush kelibsiz!",
-    "language": "Tilni o'zgartirish"
-  }
-  
+  "welcome": "Veb-saytimizga xush kelibsiz!",
+  "language": "Tilni o‘zgartirish",
+  "Product": "Mahsulot",
+  "Solutions": "Yechimlar",
+  "Resources": "Resurslar",
+  "Enterprise": "Kompaniya",
+  "Pricing": "Narxlar",
+  "EN": "UZ",
+  "Contact Sales": "Savdo bo‘limi bilan bog‘lanish",
+  "Sign up free": "Bepul ro‘yxatdan o‘tish"
+}

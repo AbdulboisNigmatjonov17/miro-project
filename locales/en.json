@@ -1,5 +1,12 @@
 {
-    "welcome": "Welcome to our website!",
-    "language": "Change Language"
-  }
-  
+  "welcome": "Welcome to our website!",
+  "language": "Change Language",
+  "Product": "Product",
+  "Solutions": "Solutions",
+  "Resources": "Resources",
+  "Enterprise": "Enterprise",
+  "Pricing": "Pricing",
+  "EN": "EN",
+  "Contact Sales": "Contact Sales",
+  "Sign up free": "Sign up free"
+}
