@@ -1,9 +1,10 @@
 "use client";
-export default function Home() {
 
+import Hero from '@/components/hero/HeroBanner'
+export default function Home() {
   return (
     <>
-      
+      <Hero />
     </>
   )
 }
