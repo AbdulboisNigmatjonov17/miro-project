@@ -8,5 +8,16 @@
     "EN": "UZ",
     "Contact Sales": "Savdo bo‘limi bilan bog‘lanish",
     "Sign up free": "Bepul ro‘yxatdan o‘tish"
+  },
+  "hero": {
+    "Take ideas from better to best": "G‘oyalarni yaxshidan zo‘rga olib boring",
+    "Miro is your team's visual platform to connect, collaborate, and create — together.": "Miro — bu jamoangizni bog‘laydigan, hamkorlik qilish va birga yaratish uchun vizual platformadir.",
+    "Enter your work email": "Ishchi emailingizni kiriting",
+    "Sign up free": "Bepul ro‘yxatdan o‘ting",
+    "Collaborate with your team within minutes": "Jamoangiz bilan bir necha daqiqada hamkorlik qiling",
+    "Based on 5149+ reviews": "5149+ sharhlar asosida baholangan"
+  },
+  "logos": {
+    "Trusted by 45M+ users": "45 milliondan ortiq foydalanuvchi tomonidan ishonchli"
   }
 }
