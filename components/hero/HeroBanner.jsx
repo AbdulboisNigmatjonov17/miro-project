@@ -13,7 +13,7 @@ export default function HeroBanner() {
         </form>
         <div>
           <div>
-            {/* <StarRating /> */}
+            <StarRating />
             <p>Based on 5149+ reviews:</p>
           </div>
           <img src="/bannerLogos.png" alt="miro bannerLogos" />
