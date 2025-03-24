@@ -3,6 +3,7 @@ import React from "react";
 import StarRating from "@/components/star/Star";
 import { useTranslation } from "react-i18next";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function HeroBanner() {
   const { t } = useTranslation();
@@ -33,7 +34,9 @@ export default function HeroBanner() {
           </div>
         </div>
       </div>
-      <Image width={640} height={462} priority src="/headerimage.png" alt="header image" />
+      <Link href={'https://miro.com/app/dashboard/'} className="overflow-hidden">
+        <Image width={640} height={462} priority src="/headerimage.png" alt="header image" className="hover:scale-110 delay-200 transition duration-200 cursor-pointer"/>
+      </Link>
     </section>
   );
 }

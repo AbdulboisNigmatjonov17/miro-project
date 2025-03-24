@@ -19,5 +19,20 @@
   },
   "logos": {
     "Trusted by 45M+ users": "45 milliondan ortiq foydalanuvchi tomonidan ishonchli"
-  }
+  },
+  "h1": "Usiz hamkorlik qiling cheklovlar",
+  "collaborate": [
+    {
+      "title": "Abadiy bepul",
+      "about": "Bizning bepul rejamiz sizga cheksiz jamoa a'zolari, 3 ta kengash va 300 dan ortiq mutaxassislar tomonidan yaratilgan shablonlarni taqdim etadi. Ishchi e-pochtangiz bilan roʻyxatdan oʻtish jamoangizni tezroq jalb qilish imkonini beradi. Qo'shimcha xususiyatlar uchun narx rejalarimizni ko'ring."
+    },
+    {
+      "title": "Oson integratsiya",
+      "about": "Miro siz allaqachon ishlatadigan G Suite, Slack va Jira kabi vositalar bilan 100 dan ortiq kuchli integratsiyalarga ega, shuning uchun ish jarayoni muammosiz. To'liq ro'yxatni bizning bozorimizda ko'ring ."
+    },
+    {
+      "title": "Birinchi navbatda xavfsizlik",
+      "about": "Biz sizning ma'lumotlaringizga xuddi siz kabi - juda ehtiyotkorlik bilan munosabatda bo'lamiz. Biz sanoatning yetakchi xavfsizlik standartlariga amal qilamiz va sizga intellektual mulkni himoya qilish vositalarini taqdim etamiz. Batafsil ma’lumotni Ishonch markazimizdan oling ."
+    }
+  ]
 }
