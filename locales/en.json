@@ -45,5 +45,39 @@
       "title": "Connect your tools, close your tabs",
       "text": "Whether you want to edit your Google Docs, resolve Jira issues, or collaborate over Zoom, Miro has 100+ integrations with tools you already use and love."
     }
+  },
+  "Main Section": {
+    "first comp": {
+      "main": "Built for the way you work",
+      "title": "Brainstorming",
+      "text": "Unleash creative ideas and build on them with the help of sticky notes, images, mind maps, videos, drawing capabilities — the list goes on.",
+      "arr": [
+        "Brainstorming",
+        "Diagramming",
+        "Meetings & Workshops",
+        "Scrum Events",
+        "Mapping",
+        "Research & Design",
+        "Strategic Planning"
+      ]
+    },
+    "second comp": {
+      "main": "Built for all kinds of teams",
+      "ul": {
+        "li1": "Build low-fi wireframes",
+        "li2": "Involve stakeholders in the design process",
+        "li3": "Run engaging design workshops"
+      },
+      "title": "Integrate your favorite tools",
+      "arr": [
+        "UX & Design",
+        "Marketing",
+        "Product Management",
+        "Engineering",
+        "Consultants",
+        "Agile Coaches",
+        "Sales"
+      ]
+    }
   }
 }

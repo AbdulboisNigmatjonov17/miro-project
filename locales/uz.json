@@ -45,5 +45,39 @@
       "title": "Asboblaringizni ulang, yorliqlaringizni yoping",
       "text": "Google Docs-ni tahrirlashni, Jira muammolarini hal qilishni yoki Zoom orqali hamkorlik qilishni xohlaysizmi, Miro siz ishlatadigan va yoqtiradigan vositalar bilan 100 dan ortiq integratsiyaga ega."
     }
+  },
+  "Main Section": {
+    "first comp": {
+      "main": "Siz ishlashingiz uchun yaratilgan",
+      "title": "Aqliy hujum",
+      "text": "Yopishqoq eslatmalar, tasvirlar, aql xaritalari, videolar, chizish qobiliyatlari yordamida ijodiy g'oyalarni oching va ularga asoslang - ro'yxat davom etadi.",
+      "arr": [
+        "Aqliy hujum",
+        "Diagramma tuzish",
+        "Uchrashuvlar va seminarlar",
+        "Scrum voqealari",
+        "Xaritalash",
+        "Tadqiqot va dizayn",
+        "Strategik rejalashtirish"
+      ]
+    },
+    "second comp": {
+      "main": "Barcha turdagi jamoalar uchun yaratilgan",
+      "ul": {
+        "li1": "Kam quvvatli simli ramkalar yarating",
+        "li2": "Dizayn jarayoniga manfaatdor tomonlarni jalb qiling",
+        "li3": "Qiziqarli dizayn seminarlarini o'tkazing"
+      },
+      "title": "Sevimli vositalaringizni birlashtiring",
+      "arr": [
+        "UX va dizayn",
+        "Marketing",
+        "Mahsulotni boshqarish",
+        "Muhandislik",
+        "Maslahatchilar",
+        "Aqil murabbiylar",
+        "Sotish"
+      ]
+    }
   }
 }
