@@ -1,10 +1,13 @@
 "use client";
 
+import Cards from '@/components/cards/Cards';
 import Collaborate from '@/components/collaborate/Collaborate';
 import Hero from '@/components/hero/HeroBanner'
 import Logos from '@/components/logo/Logos';
 import MainSection from '@/components/sections/MainSection';
 import Section1 from '@/components/sections/Section1';
+import YellowSection from '@/components/sections/YellowSection';
+import Statisic from '@/components/sts/Statisic';
 import { Check } from '@mui/icons-material';
 import Image from 'next/image';
 import { useTranslation } from 'react-i18next';
@@ -51,15 +54,22 @@ export default function Home() {
 
   return (
     <>
-      <Hero />
-      <Logos />
-      <Collaborate />
-      <Section1 />
-      <section className='relative w-full h-[500px] my-10'>
-        <Image src='/section.png' fill alt='Section Image' className='object-cover hover:scale-110 transition duration-200 cursor-pointer' />
-      </section>
-      <MainSection title={t("Main Section.first comp.main")} data={firstCompData} img='/MainSection1.png' comp={firstComp} />
-      <MainSection title={t("Main Section.second comp.main")} data={secondCompData} img='/MainSection2.png' comp={secondComp} />
+      <main className='Container'>
+        <Hero />
+        <Logos />
+        <Collaborate />
+        <Section1 />
+        <section className='relative w-full h-[500px] my-10'>
+          <Image src='/section.png' fill alt='Section Image' className='object-cover hover:scale-110 transition duration-200 cursor-pointer' />
+        </section>
+        <MainSection title={t("Main Section.first comp.main")} data={firstCompData} img='/MainSection1.png' comp={firstComp} />
+        <MainSection title={t("Main Section.second comp.main")} data={secondCompData} img='/MainSection2.png' comp={secondComp} />
+      </main>
+      <YellowSection />
+      <article className='Container'>
+        <Cards />
+        <Statisic />
+      </article>
     </>
   )
 }

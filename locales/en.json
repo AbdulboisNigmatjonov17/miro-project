@@ -79,5 +79,109 @@
         "Sales"
       ]
     }
+  },
+  "Yellow section": {
+    "title": "Why companies large and small trust Miro",
+    "underline": "Contact Sales to request a demo",
+    "data": [
+      {
+        "title": "ISO",
+        "text": "ISO-27001 enterprise-grade security compliant"
+      },
+      {
+        "title": "#1",
+        "text": "Visual Collaboration Platform on G2"
+      },
+      {
+        "title": "99%",
+        "text": "of the Fortune 100 are customers"
+      },
+      {
+        "title": "1,000+",
+        "text": "community- and expert-built templates"
+      },
+      {
+        "title": "45M+",
+        "text": "users around the world"
+      },
+      {
+        "title": "100+",
+        "text": "integrations with technology partners"
+      }
+    ]
+  },
+  "Cards": {
+    "title": "Loved by the world's best teams",
+    "button": "See all customer stories",
+    "card1": {
+      "text": "“When the pandemic hit, those of us who thrive on in-person collaboration were worried that our creativity and productivity would suffer. Miro was the perfect tool to help us with collaboration, whiteboarding, and retrospectives while remote.”",
+      "job": "Design Team Lead at VMware"
+    },
+    "card2": {
+      "text": "“Miro helps solve one of the major gaps in product design: how to manage tasks across product designers whose projects are in different tools.”",
+      "job": "Head of Design at DocuSign"
+    },
+    "card3": {
+      "text": "“As we used Miro we moved from skepticism to belief to innovation, and now we have a tool that’s at the core of what we do and will continue to extend into the future.”",
+      "job": "Associate Design Director at frog"
+    }
+  },
+  "Sts": {
+    "title": "Join 45M+ users today",
+    "p1": "Start for free — upgrade anytime.",
+    "p2": "Joining as an organization? Contact Sales"
+  },
+  "footer": {
+    "Product": "Product",
+    "Solutions": "Solutions",
+    "Resources": "Resources",
+    "Company": "Company",
+    "Plans and Pricing": "Plans and Pricing",
+    "Online whiteboard": "Online whiteboard",
+    "Apps & Integrations": "Apps & Integrations",
+    "Templates": "Templates",
+    "Miroverse": "Miroverse",
+    "Miro Developer Platform": "Miro Developer Platform",
+    "Miro for Devices": "Miro for Devices",
+    "Security & Compliance": "Security & Compliance",
+    "Accessibility": "Accessibility",
+    "Changelog": "Changelog",
+    "View demo →": "View demo →",
+    "Meetings and Workshops": "Meetings and Workshops",
+    "Brainstorming & Ideation": "Brainstorming & Ideation",
+    "Agile Workflows": "Agile Workflows",
+    "Diagramming": "Diagramming",
+    "Research & Design": "Research & Design",
+    "Strategy & Planning": "Strategy & Planning",
+    "Mind Map": "Mind Map",
+    "Concept Map": "Concept Map",
+    "Online Sticky Notes": "Online Sticky Notes",
+    "Flowchart": "Flowchart",
+    "Wireframing": "Wireframing",
+    "Miro Academy": "Miro Academy",
+    "Help Center": "Help Center",
+    "Blog": "Blog",
+    "Status": "Status",
+    "Miro Community": "Miro Community",
+    "Miro Professional Network": "Miro Professional Network",
+    "Miro Experts Directory": "Miro Experts Directory",
+    "Miro Events": "Miro Events",
+    "About us": "About us",
+    "Careers 🚀": "Careers 🚀",
+    "Miro in the News": "Miro in the News",
+    "Customer Stories": "Customer Stories",
+    "Pricing": "Pricing",
+    "Business": "Business",
+    "Enterprise": "Enterprise",
+    "Consultants": "Consultants",
+    "Education": "Education",
+    "Startups": "Startups",
+    "NPOs": "NPOs",
+    "Contact sales →": "Contact sales →",
+    "copyright": "© 2022 Miro",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "cookies": "Manage Cookies",
+    "en": "EN"
   }
 }
