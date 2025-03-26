@@ -34,5 +34,16 @@
       "title": "Birinchi navbatda xavfsizlik",
       "about": "Biz sizning ma'lumotlaringizga xuddi siz kabi - juda ehtiyotkorlik bilan munosabatda bo'lamiz. Biz sanoatning yetakchi xavfsizlik standartlariga amal qilamiz va sizga intellektual mulkni himoya qilish vositalarini taqdim etamiz. Batafsil ma’lumotni Ishonch markazimizdan oling ."
     }
-  ]
+  ],
+  "Section1": {
+    "learn more": "Batafsil ma'lumot",
+    "1": {
+      "title": "Qayerda ishlasangiz ham birga ishlang",
+      "text": "Ofisda, masofaviy yoki ikkalasining aralashmasi, Miro bilan jamoangiz qayerda bo'lishingizdan qat'i nazar, bir joyda ulanishi, hamkorlik qilishi va birgalikda yaratishi mumkin."
+    },
+    "2": {
+      "title": "Asboblaringizni ulang, yorliqlaringizni yoping",
+      "text": "Google Docs-ni tahrirlashni, Jira muammolarini hal qilishni yoki Zoom orqali hamkorlik qilishni xohlaysizmi, Miro siz ishlatadigan va yoqtiradigan vositalar bilan 100 dan ortiq integratsiyaga ega."
+    }
+  }
 }

@@ -34,5 +34,16 @@
       "title": "Security first",
       "about": "We treat your data like you would — with the utmost care. We follow industry-leading security standards and give you tools to protect intellectual property. Learn more at our Trust Center ."
     }
-  ]
+  ],
+  "Section1": {
+    "learn more": "Learn more",
+    "1": {
+      "title": "Work together, wherever you work",
+      "text": "In the office, remote, or a mix of the two, with Miro, your team can connect, collaborate, and co-create in one space no matter where you are."
+    },
+    "2": {
+      "title": "Connect your tools, close your tabs",
+      "text": "Whether you want to edit your Google Docs, resolve Jira issues, or collaborate over Zoom, Miro has 100+ integrations with tools you already use and love."
+    }
+  }
 }

@@ -15,4 +15,4 @@ i18n.use(initReactI18next).init({
     interpolation: { escapeValue: false },
 });
 
-export { i18n }; // "default" emas, named export qilib yuboramiz
+export { i18n };
