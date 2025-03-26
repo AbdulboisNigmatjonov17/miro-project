@@ -12,7 +12,7 @@ import { Check } from '@mui/icons-material';
 import Image from 'next/image';
 import { useTranslation } from 'react-i18next';
 
-export const firstComp = () => {
+export const FirstComp = () => {
   const { t } = useTranslation()
   return (
     <div className='w-[350px] py-8 px-4 flex flex-col gap-6 items-start'>
@@ -22,7 +22,7 @@ export const firstComp = () => {
     </div>
   )
 }
-export const secondComp = () => {
+export const SecondComp = () => {
   const { t } = useTranslation()
   return (
     <div className='w-[350px] py-8 px-4 flex flex-col gap-16 items-start'>
@@ -62,8 +62,8 @@ export default function Home() {
         <section className='relative w-full h-[500px] my-10'>
           <Image src='/section.png' fill alt='Section Image' className='object-cover hover:scale-110 transition duration-200 cursor-pointer' />
         </section>
-        <MainSection title={t("Main Section.first comp.main")} data={firstCompData} img='/MainSection1.png' comp={firstComp} />
-        <MainSection title={t("Main Section.second comp.main")} data={secondCompData} img='/MainSection2.png' comp={secondComp} />
+        <MainSection title={t("Main Section.first comp.main")} data={firstCompData} img='/MainSection1.png' comp={FirstComp} />
+        <MainSection title={t("Main Section.second comp.main")} data={secondCompData} img='/MainSection2.png' comp={SecondComp} />
       </main>
       <YellowSection />
       <article className='Container'>
