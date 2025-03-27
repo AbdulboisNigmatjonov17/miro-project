@@ -1,6 +1,6 @@
 # Miro Project
 
-Bu loyiha miro.com ni bitta page li versiyasi bolib [Next.js](https://nextjs.org) yordamida yaratildi va [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app) orqali ishga tushirilgan. bu loyiha single page bolib unda language ozgartirish imkoni bor.
+Bu loyiha [Miro](https://miro.com/) ni bitta page li versiyasi bolib [Next.js](https://nextjs.org) yordamida yaratildi va [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app) orqali ishga tushirilgan. bu loyiha single page bolib unda language ozgartirish imkoni bor.
 
 ## Loyiha klonlash va ishga tushirish
 
