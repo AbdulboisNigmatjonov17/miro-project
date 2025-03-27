@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Miro Project
 
-## Getting Started
+Bu loyiha miro.com ni bitta page li versiyasi bolib [Next.js](https://nextjs.org) yordamida yaratildi va [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app) orqali ishga tushirilgan. bu loyiha single page bolib unda language ozgartirish imkoni bor.
 
-First, run the development server:
+## Loyiha klonlash va ishga tushirish
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Quyidagi bosqichlarni bajaring:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. **Repository'ni klonlash:**
+   ```bash
+   git clone [<repository_link>](https://github.com/AbdulboisNigmatjonov17/miro-project.git)
+   cd miro-project
+   ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. **Kerakli bog‘lamlarni o‘rnatish:**
+   ```bash
+   npm install
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. **Loyihani ishga tushirish:**
+   ```bash
+   npm run dev
+   ```
 
-## Learn More
+Brauzeringizda [http://localhost:3000](http://localhost:3000) manziliga kirib natijani ko‘rishingiz mumkin.
 
-To learn more about Next.js, take a look at the following resources:
+## Ishlatilgan texnologiyalar
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Mui (Material UI)
+- i18next
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Xususiyatlar
+- Foydalanuvchi autentifikatsiyasi
+- Tailwind CSS yordamida responsiv dizayn
+- Axios orqali API integratsiyasi
+- Context API orqali state boshqaruvi
+- Dinamik routing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Muallif
+Loyihani ishlab chiqqan: **CostaRico** 🚀
+Loyiha yoqgan bolsa Star bosishni unutmang!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
