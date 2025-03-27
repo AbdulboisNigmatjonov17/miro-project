@@ -10,7 +10,6 @@ import Image from "next/image";
 import { Drawer, List, ListItem } from "@mui/material";
 
 export default function Navbar() {
-  const [showBtn, setShowBtn] = useState(false)
   const [open, setOpen] = useState(false);
   const { t } = useTranslation();
 
@@ -32,14 +31,6 @@ export default function Navbar() {
         </ul>
       </div>
       <div className="hidden md:flex justify-center items-center gap-6">
-        {/* <button onClick={() => setShowBtn(prev => !prev)}
-          className="relative cursor-pointer flex gap-1">
-          <Language />{t("navbar.EN")}
-          {showBtn && <div className="absolute top-6 left-5 flex flex-col gap-1 border border-[#F0F0F0] shadow-2xs">
-            <div className="border border-[#F0F0F0] py-1 px-3 cursor-pointer hover:bg-[#F0F0F0]" onClick={() => i18n.changeLanguage("uz")}>Uz</div>
-            <div className="border border-[#F0F0F0] py-1 px-3 cursor-pointer hover:bg-[#F0F0F0]" onClick={() => i18n.changeLanguage("en")}>En</div>
-          </div>}
-        </button> */}
         <Language />
         <select
           onChange={handleChangeLanguage}
