@@ -12,8 +12,8 @@ export default function Collaborate() {
     const collaborateData = t("collaborate", { returnObjects: true }) as CollaborateItem[];
     return (
         <section className='w-full flex flex-col items-center gap-3 my-10'>
-            <h1 className='font-bold text-5xl w-[460px] text-[#050038] text-center'>{t("h1")}</h1>
-            <div className='w-full flex justify-between gap-5'>
+            <h1 className='font-bold text-5xl lg:w-[460px] w-full text-[#050038] text-center'>{t("h1")}</h1>
+            <div className='w-full flex flex-wrap justify-between gap-5'>
                 {collaborateData.map((item, index) => (
                     <div key={index}
                         className='flex flex-col gap-7 p-5'>

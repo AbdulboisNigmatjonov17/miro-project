@@ -10,7 +10,7 @@ export default function Cards() {
         <h1 className='font-bold text-5xl leading-14'>{t("Cards.title")}</h1>
         <button className='min-w-[280px] h-12 flex items-center justify-center rounded-3xl cursor-pointer border border-[#4262FF] text-[#4262FF] font-normal text-[18px] leading-6 hover:bg-[#4262FF] hover:text-white'>{t("Cards.button")} →</button>
       </div>
-      <div className='w-full flex justify-between'>
+      <div className='w-full flex flex-wrap justify-between'>
         <div className='w-[350px] h-[450px] flex flex-col justify-between p-9 gap-8 text-left'>
           <Image width={285} height={60} src="/cards/vmware.png" alt="vmware img" className='shadow-2xl' />
           <p className='text-[#05003899] font-normal text-[18px] leading-6'>{t("Cards.card1.text")}</p>

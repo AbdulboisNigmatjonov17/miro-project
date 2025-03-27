@@ -11,8 +11,8 @@ export default function YellowSection() {
     const yellowSectionData = t("Yellow section.data", { returnObjects: true }) as yellowSectionData[];
     return (
         <section className='bg-[#FFD02F] w-full my-20 flex flex-col items-center gap-10 py-20'>
-                <div className='w-[500px] text-center flex flex-col gap-4 text-[#050038]'>
-                    <h1 className='text-5xl font-bold leading-14'>{t("Yellow section.title")}</h1>
+                <div className='md:w-[500px] w-full text-center flex flex-col gap-4 text-[#050038]'>
+                    <h1 className='md:text-5xl text-3xl font-bold leading-14'>{t("Yellow section.title")}</h1>
                     <h3 className='text-[18px] font-normal underline underline-offset-4'>{t("Yellow section.underline")}</h3>
                 </div>
                 <div className='Container flex flex-wrap justify-between'>

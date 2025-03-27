@@ -66,14 +66,16 @@ export default function Home() {
         <Logos />
         <Collaborate />
         <Section1 />
-        <section className='relative w-full h-[500px] my-10'>
+        <section className='hidden md:flex relative w-full h-[500px] my-10 lg:px-0 px-5'>
           <Image
             src='/section.png'
-            fill
+            width={1200}
+            height={500}
             alt='Section Image'
-            className='object-cover hover:scale-110 transition duration-200 cursor-pointer'
+            className='object-cover w-full h-full hover:scale-110 transition duration-200 cursor-pointer'
           />
         </section>
+
         <MainSection title={t("Main Section.first comp.main")} data={firstCompData} img='/MainSection1.png' comp={FirstComp} />
         <MainSection title={t("Main Section.second comp.main")} data={secondCompData} img='/MainSection2.png' comp={SecondComp} />
       </main>

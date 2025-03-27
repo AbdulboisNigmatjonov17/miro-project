@@ -44,15 +44,6 @@ export const footerData = [
         ]
     },
     {
-        title: "Company",
-        links: [
-            "About us",
-            "Careers 🚀",
-            "Miro in the News",
-            "Customer Stories"
-        ]
-    },
-    {
         title: "Plans and Pricing",
         links: [
             "Pricing",
@@ -64,5 +55,14 @@ export const footerData = [
             "NPOs",
             "Contact sales →"
         ]
-    }
+    },
+    {
+        title: "Company",
+        links: [
+            "About us",
+            "Careers 🚀",
+            "Miro in the News",
+            "Customer Stories"
+        ]
+    },
 ];
