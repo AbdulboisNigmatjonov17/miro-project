@@ -15,7 +15,7 @@ export default function MainSection({ title, data, img, comp }: MainSectionProps
             <h1 className='font-bold text-5xl text-[#050038]'>{title}</h1>
             <div className='w-full flex flex-wrap justify-between gap-2 items-center'>
                 {data.map((item: string, index: number) => (
-                    <button onClick={() => setSelectOne(index)} key={index} className={`text-[#050038] border border-[#F2F2F2] rounded-3xl py-3 pl-4 pr-7 hover:bg-[#F1F3FD] ${selectOne === index ? 'bg-[#F1F3FD]' : ''} cursor-pointer`}>{item}</button>
+                    <button aria-label="select one" onClick={() => setSelectOne(index)} key={index} className={`text-[#050038] border border-[#F2F2F2] rounded-3xl py-3 pl-4 pr-7 hover:bg-[#F1F3FD] ${selectOne === index ? 'bg-[#F1F3FD]' : ''} cursor-pointer`}>{item}</button>
                 ))}
             </div>
             <div className='w-full flex md:flex-row flex-col-reverse justify-between items-start lg:gap-0 gap-5'>

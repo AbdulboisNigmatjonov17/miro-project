@@ -18,7 +18,7 @@ const FirstComp = () => {
     <div className='w-[350px] py-8 px-4 flex flex-col gap-6 items-start'>
       <h4 className='text-[#050038] text-[18px] leading-6'>{t("Main Section.first comp.title")}</h4>
       <p className='text-[#050038B2] text-[18px] leading-6'>{t("Main Section.first comp.text")}</p>
-      <button className='font-normal text-[18px] leading-6 text-[#4262FF] cursor-pointer'>
+      <button aria-label="learn more" className='font-normal text-[18px] leading-6 text-[#4262FF] cursor-pointer'>
         {t("Section1.learn more")} →
       </button>
     </div>
@@ -35,7 +35,7 @@ const SecondComp = () => {
           <li><Check /> {t("Main Section.second comp.ul.li2")}</li>
           <li><Check /> {t("Main Section.second comp.ul.li3")}</li>
         </ul>
-        <button className='font-normal text-[18px] leading-6 text-[#4262FF] cursor-pointer'>
+        <button aria-label="learn more" className='font-normal text-[18px] leading-6 text-[#4262FF] cursor-pointer'>
           {t("Section1.learn more")} →
         </button>
       </div>

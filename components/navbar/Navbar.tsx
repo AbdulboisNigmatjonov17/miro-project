@@ -42,12 +42,12 @@ export default function Navbar() {
         </select>
         <h3>{t("navbar.Contact Sales")}</h3>
         <div className="flex gap-0.5 items-center">
-          <button className="hover:bg-[#4262FF] rounded-full py-4 px-5 text-black hover:text-white cursor-pointer">{t("navbar.Sign up free")} →</button>
+          <button aria-label="Sign Up free" className="hover:bg-[#4262FF] rounded-full py-4 px-5 text-black hover:text-white cursor-pointer">{t("navbar.Sign up free")} →</button>
           <Button />
         </div>
       </div>
 
-      <button className="lg:hidden" onClick={() => setOpen(true)}>
+      <button aria-label="Open Menu" className="lg:hidden" onClick={() => setOpen(true)}>
         <Menu className="w-8 h-8" />
       </button>
 
@@ -65,7 +65,7 @@ export default function Navbar() {
               </select>
               <h3>{t("navbar.Contact Sales")}</h3>
               <div className="md:hidden flex flex-col  gap-0.5 items-start">
-                <button className="hover:bg-[#4262FF] rounded-full py-4 px-5 text-black hover:text-white cursor-pointer">{t("navbar.Sign up free")} →</button>
+                <button aria-label="Sign Up free" className="hover:bg-[#4262FF] rounded-full py-4 px-5 text-black hover:text-white cursor-pointer">{t("navbar.Sign up free")} →</button>
                 <Button />
               </div>
             </div>

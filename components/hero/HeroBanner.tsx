@@ -19,7 +19,7 @@ export default function HeroBanner() {
             placeholder={t("hero.Enter your work email")}
             className="w-full px-6 py-3 rounded-full text-[#5F5C80] text-lg outline-none border border-[#9B99AF]"
           />
-          <button className="w-full bg-[#4262FF] hover:bg-[#4262ffd2] px-6 py-3 rounded-full text-white cursor-pointer">
+          <button aria-label="Sign Up free" className="w-full bg-[#4262FF] hover:bg-[#4262ffd2] px-6 py-3 rounded-full text-white cursor-pointer">
             {t("hero.Sign up free")} →
           </button>
           <label className="text-[#05003866]">{t("hero.Collaborate with your team within minutes")}</label>
