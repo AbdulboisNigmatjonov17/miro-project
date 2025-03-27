@@ -24,7 +24,7 @@ export default function Footer() {
       </div>
       <hr className='text-[#9B99AF]' />
       <div className='w-full md:px-8 px-5 flex flex-wrap justify-between items-center lg:gap-0 gap-5'>
-        <div className='flex items-center gap-8'>
+        <div className='flex flex-wrap items-center gap-8'>
           <div className='flex gap-6'>
             <Twitter />
             <FacebookOutlined />
