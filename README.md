@@ -8,10 +8,11 @@ Quyidagi bosqichlarni bajaring:
 
 1. **Repository'ni klonlash:**
    ```bash
-git clone https://github.com/AbdulboisNigmatjonov17/miro-project.git
-cd miro-project
+   git clone https://github.com/AbdulboisNigmatjonov17/miro-project.git
    ```
-
+   ```bash
+   cd miro-project
+   ```
 2. **Kerakli bog‘lamlarni o‘rnatish:**
    ```bash
    npm install
