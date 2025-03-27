@@ -1,7 +1,6 @@
 "use client"
 import Image from 'next/image'
 import React, { ComponentType, useState } from 'react'
-import { useTranslation } from 'react-i18next'
 
 interface MainSectionProps {
     title: string,
@@ -11,7 +10,6 @@ interface MainSectionProps {
 }
 export default function MainSection({ title, data, img, comp }: MainSectionProps) {
     const [selectOne, setSelectOne] = useState<number | null>(null);
-    const { t } = useTranslation()
     return (
         <section className='w-full flex flex-col gap-8 my-20'>
             <h1 className='font-bold text-5xl text-[#050038]'>{title}</h1>

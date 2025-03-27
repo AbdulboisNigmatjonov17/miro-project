@@ -6,6 +6,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import Button from '@/components/button/Button'
+import Image from "next/image";
 export default function Navbar() {
   const [showBtn, setShowBtn] = useState(false)
   const { t } = useTranslation();
@@ -13,7 +14,7 @@ export default function Navbar() {
     <nav className="w-full h-[10vh] flex justify-between">
       <div className="w-1/2 flex items-center justify-center gap-6">
         <Link href={'/'}>
-          <img src="/logo.svg" alt="miro logo" className="" />
+          <Image width={90} height={30} src="/logo.svg" alt="miro logo" className="" />
         </Link>
         <ul className="flex gap-4 items-center">
           <li className="hover:underline underline-offset-4">{t("navbar.Product")} <ExpandMore /></li>

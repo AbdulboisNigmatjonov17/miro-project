@@ -1,6 +1,7 @@
 "use client"
 import { footerData } from '@/helpers/FooterData';
 import { FacebookOutlined, Instagram, Language, LinkedIn, Twitter, YouTube } from '@mui/icons-material';
+import Image from 'next/image';
 import { useTranslation } from 'react-i18next';
 
 export default function Footer() {
@@ -39,9 +40,9 @@ export default function Footer() {
           <span>{t('footer.cookies')}</span>
         </div>
         <div className='h-[45px] flex gap-3'>
-          <img src="/appstore.png" alt="app store" />
-          <img src="/googleplay.png" alt="google play" />
-          <img src="/image.png" alt="miro logo" />
+          <Image width={135} height={45} src="/appstore.png" alt="app store" />
+          <Image width={150} height={45} src="/googleplay.png" alt="google play" />
+          <Image width={45} height={45} src="/image.png" alt="miro logo" />
         </div>
       </div>
     </footer>

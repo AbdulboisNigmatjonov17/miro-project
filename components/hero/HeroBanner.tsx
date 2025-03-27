@@ -25,12 +25,12 @@ export default function HeroBanner() {
           <label className="text-[#05003866]">{t("hero.Collaborate with your team within minutes")}</label>
         </form>
         <div className="flex justify-between bg-[#F5F5F7] p-3.5 rounded-lg">
-          <div className="w-[170px]">
+          <div className="w-[180px]">
             <StarRating />
             <p className="text-[#050038]">{t("hero.Based on 5149+ reviews")}</p>
           </div>
           <div className="flex items-center">
-            <img src="/bannerLogos.png" alt="miro bannerLogos" className="w-[200px] h-[40px] object-cover" />
+            <Image width={185} height={35} src="/bannerLogos.png" alt="miro bannerLogos" className="w-[200px] h-[40px] object-cover" />
           </div>
         </div>
       </div>
